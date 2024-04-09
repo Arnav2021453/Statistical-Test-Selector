@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Statistical Test Selector</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Google Fonts - Montserrat -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat&display=swap">
+    <!-- Animate CSS for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">StatSelector</a>
+            <!-- Navbar collapse content -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <form class="form-inline ml-auto">
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Container -->
+    <div class="container my-5">
+        <!-- Question Container -->
+        <div id="question-container" class="card shadow p-4 mb-4 animate_animated animatefadeInUp animateanimated animate_rotateIn">
+            <!-- Question Heading -->
+            <h2 id="question" class="text-center"></h2>
+            <!-- Options Display Area -->
+            <div id="options" class="d-flex justify-content-center flex-wrap mt-4"></div>
+            <!-- Previous Button -->
+            <div class="mt-4 text-center">
+                <button id="prev-btn" class="btn btn-secondary mr-2 d-none">Previous</button>
+            </div>
+        </div>
+        <!-- Result Display Container -->
+        <div id="result" class="card shadow p-4 text-center animate_animated animatefadeInUp animateanimated animate_rotateIn"></div>
+    </div>
+
+    <!-- Contributors List -->
+    <ul>Contributors:
+        <li>Arnav Gupta</li>
+        <li>Lovleen K Verma</li>
+        <li>Mandeep Singh Virdi</li>
+        <li>Aryan Sharma</li>
+    </ul>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>

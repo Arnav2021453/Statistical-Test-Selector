@@ -1,0 +1,80 @@
+/* General styles for the entire body of the HTML page */
+body {
+    font-family: 'Montserrat', sans-serif;  /* Setting the font for the body text */
+    background-color: royalblue;  /* Background color of the body */
+    min-height: 100vh;  /* Minimum height of the body, full viewport height */
+    /* Background image for the body with a URL */
+    background-image: url("https://images.rawpixel.com/image_social_landscape/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwMTYtYy0wOF8xLWtzaDZtemEzLmpwZw.jpg");
+}
+
+/* Styling for the navigation bar */
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.715);  /* Shadow effect for the navbar */
+}
+
+/* Styles for the cards used in the page */
+.card {
+    border-radius: 10px;  /* Rounded corners for the cards */
+    transition: all 0.3s ease-in-out;  /* Smooth transition effect for changes */
+    perspective: 1000px;  /* Perspective for 3D transforms */
+    /* Background image for the cards with a URL */
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/001/813/556/small/light-blue-texture-in-rectangular-style-vector.jpg");
+}
+
+/* Styles for the option buttons */
+.option-btn {
+    margin: 10px;  /* Margin around the option buttons */
+    min-width: 200px;  /* Minimum width for the option buttons */
+    font-weight: bold;  /* Bold font weight for the option buttons */
+    transition: all 0.3s ease-in-out;  /* Smooth transition effect for changes */
+}
+
+/* Hover effect for the option buttons */
+.option-btn:hover {
+    transform: translateY(-3px);  /* Move the button up slightly on hover */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);  /* Shadow effect on hover */
+    opacity: 0.5;  /* Reduced opacity on hover */
+}
+
+/* Styles for the result cards */
+.result-card {
+    font-size: 1.2rem;  /* Font size for the result cards */
+}
+
+/* Animation classes */
+.animate_animated.animate_fadeInUp {
+    --animate-duration: 0.5s;  /* Duration of fadeInUp animation */
+}
+
+.animate_animated.animate_rotateIn {
+    --animate-duration: 0.8s;  /* Duration of rotateIn animation */
+}
+
+/* Styles for the list items */
+li {
+    color: white;  /* Text color for list items */
+}
+
+/* Styles for the unordered list */
+ul {
+    position: absolute;  /* Absolute positioning for the list */
+    bottom: 0;  /* Positioned at the bottom */
+    right: 0;  /* Positioned on the right side */
+    color: #fff;  /* Text color for the list */
+    padding: 10px;  /* Padding around the list */
+}
+
+/* Styles for the h2 heading */
+h2 {
+    color: #fff;  /* Text color for h2 heading */
+}
+
+/* Styles for the result container */
+#result {
+    color: #fff;  /* Text color for the result */
+}
+
+/* Styles for the previous button */
+#prev-btn {
+    background-color: royalblue;  /* Background color for the previous button */
+}
